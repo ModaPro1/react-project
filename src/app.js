@@ -21,14 +21,14 @@ export default function App() {
       <Routes>
         <Route path="/" element={<FixedSibar/>}>
           <Route index element={<Dashboard/>}/>
-          <Route path="/settings" element={<Settings/>}/>
-          <Route path="/profile" element={<Profile/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/courses" element={<Courses/>}/>
-          <Route path="/courses/:courseId" element={<SingleCourse/>}/>
-          <Route path="/friends" element={<Friends/>}/>
-          <Route path="/files" element={<Files/>}/>
-          <Route path="/plans" element={<Plans/>}/>
+          <Route path="/react-project/settings" element={<Settings/>}/>
+          <Route path="/react-project/profile" element={<Profile/>}/>
+          <Route path="/react-project/projects" element={<Projects/>}/>
+          <Route path="/react-project/courses" element={<Courses/>}/>
+          <Route path="/react-project/courses/:courseId" element={<SingleCourse/>}/>
+          <Route path="/react-project/friends" element={<Friends/>}/>
+          <Route path="/react-project/files" element={<Files/>}/>
+          <Route path="/react-project/plans" element={<Plans/>}/>
           <Route path="*" element={<NotFound/>}/>
         </Route>
       </Routes>
