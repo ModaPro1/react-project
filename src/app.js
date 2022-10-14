@@ -20,7 +20,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<FixedSibar/>}>
-          <Route index element={<Dashboard/>}/>
+          <Route path="/react-project" element={<Dashboard/>}/>
           <Route path="/react-project/settings" element={<Settings/>}/>
           <Route path="/react-project/profile" element={<Profile/>}/>
           <Route path="/react-project/projects" element={<Projects/>}/>
