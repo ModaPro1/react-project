@@ -8,7 +8,7 @@ export default function NotFound () {
           404
         </h2>
         <h2>Page Not Found</h2>
-        <NavLink to='/' className='bg-blue c-white rad-6 btn-shape'>Back Home</NavLink>
+        <NavLink to='/react-project' className='bg-blue c-white rad-6 btn-shape'>Back Home</NavLink>
       </center>
     </div>
   )

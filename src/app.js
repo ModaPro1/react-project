@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 
 // Fixed Pages
 import FixedSibar from "./fixedSidbar"
@@ -22,21 +22,21 @@ import './css/framwork.css'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/react-project" element={<FixedSibar/>}>
-          <Route path="/react-project" element={<Dashboard/>}/>
-          <Route path="/react-project/settings" element={<Settings/>}/>
-          <Route path="/react-project/profile" element={<Profile/>}/>
-          <Route path="/react-project/projects" element={<Projects/>}/>
-          <Route path="/react-project/courses" element={<Courses/>}/>
-          <Route path="/react-project/courses/:courseId" element={<SingleCourse/>}/>
-          <Route path="/react-project/friends" element={<Friends/>}/>
-          <Route path="/react-project/files" element={<Files/>}/>
-          <Route path="/react-project/plans" element={<Plans/>}/>
-          <Route path="*" element={<NotFound/>}/>
+        <Route path="" element={<FixedSibar/>}>
+          <Route path="" element={<Dashboard/>}/>
+          <Route path="/settings" element={<Settings/>}/>
+          <Route path="/profile" element={<Profile/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/courses" element={<Courses/>}/>
+          <Route path="/courses/:courseId" element={<SingleCourse/>}/>
+          <Route path="/friends" element={<Friends/>}/>
+          <Route path="/files" element={<Files/>}/>
+          <Route path="/plans" element={<Plans/>}/>
         </Route>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
