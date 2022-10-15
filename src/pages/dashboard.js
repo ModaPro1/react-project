@@ -2,7 +2,7 @@
 export default function Dashboard () {
   return (
     <>
-      <h1 className="p-relative">Dashboarddd</h1>
+      <h1 className="p-relative">Dashboard</h1>
       <div className="wrapper d-grid gap-20">
 
         <div className="welcome bg-white rad-10 txt-c-mobile block-mobile">
@@ -352,22 +352,22 @@ export default function Dashboard () {
         <div className="social-media p-20 bg-white rad-10 p-relative">
           <h2 className="mt-0 mb-25">Social Media Stats</h2>
           <div className="box twitter p-15 p-relative mb-10 between-flex">
-            <i className="fa-brands fa-twitter fa-2x c-white h-full center-flex"></i>
+            <i className="fa-brands fa-twitter fa-2x c-white h-full d-flex center-flex"></i>
             <span>90K Followers</span>
             <a className="fs-13 c-white btn-shape" href="#">Follow</a>
           </div>
           <div className="box facebook p-15 p-relative mb-10 between-flex">
-            <i className="fa-brands fa-facebook-f fa-2x c-white h-full center-flex"></i>
+            <i className="fa-brands fa-facebook-f fa-2x c-white h-full d-flex center-flex"></i>
             <span>2M Like</span>
             <a className="fs-13 c-white btn-shape" href="#">Like</a>
           </div>
           <div className="box youtube p-15 p-relative mb-10 between-flex">
-            <i className="fa-brands fa-youtube fa-2x c-white h-full center-flex"></i>
+            <i className="fa-brands fa-youtube fa-2x c-white h-full d-flex center-flex"></i>
             <span>1M Subs</span>
             <a className="fs-13 c-white btn-shape" href="#">Subscribe</a>
           </div>
           <div className="box linkedin p-15 p-relative mb-10 between-flex">
-            <i className="fa-brands fa-linkedin fa-2x c-white h-full center-flex"></i>
+            <i className="fa-brands fa-linkedin fa-2x c-white h-full d-flex center-flex"></i>
             <span>70K Followers</span>
             <a className="fs-13 c-white btn-shape" href="#">Follow</a>
           </div>

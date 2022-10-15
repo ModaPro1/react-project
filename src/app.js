@@ -16,9 +16,10 @@ import NotFound from "./pages/notFound"
 import Dashboard from "./pages/dashboard"
 
 // CSS
+import './css/all.min.css'
 import './css/style.css'
 import './css/framwork.css'
-import './css/all.min.css'
+
 export default function App() {
   return (
     <BrowserRouter>
