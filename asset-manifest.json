@@ -1,21 +1,45 @@
 {
   "files": {
     "main.css": "/react-project/static/css/main.6a9ab1a3.css",
-    "main.js": "/react-project/static/js/main.461befbc.js",
+    "main.js": "/react-project/static/js/main.1324b42b.js",
     "static/media/fa-solid-900.ttf": "/react-project/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/news-04.png": "/react-project/static/media/news-04.a02aff23df72ac1dcc1f.png",
+    "static/media/news-02.png": "/react-project/static/media/news-02.c015f313cf6cf401ac2c.png",
     "static/media/fa-brands-400.ttf": "/react-project/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
+    "static/media/activity-03.png": "/react-project/static/media/activity-03.d98be99005d485661a2a.png",
+    "static/media/news-01.png": "/react-project/static/media/news-01.b852d39c771ffd520f8a.png",
+    "static/media/friend-03.jpg": "/react-project/static/media/friend-03.445e18a752be7d5022cd.jpg",
     "static/media/fa-solid-900.woff2": "/react-project/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
     "static/media/fa-brands-400.woff2": "/react-project/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
+    "static/media/course-02.jpg": "/react-project/static/media/course-02.03ec4ce7f4664c12e42b.jpg",
+    "static/media/news-03.png": "/react-project/static/media/news-03.1a9d17ff67474cc45ffb.png",
     "static/media/fa-regular-400.ttf": "/react-project/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
+    "static/media/activity-02.png": "/react-project/static/media/activity-02.9d17ea7253559711a9dd.png",
+    "static/media/activity-01.png": "/react-project/static/media/activity-01.7f3fdfcaaae6e15e2321.png",
+    "static/media/course-05.jpg": "/react-project/static/media/course-05.d72b933bd8fce7b902e2.jpg",
+    "static/media/welcome.png": "/react-project/static/media/welcome.3a0dea0e2afe2ce1ab2a.png",
+    "static/media/project.png": "/react-project/static/media/project.ccc29c81e72ac8f1ccd5.png",
+    "static/media/avatar.png": "/react-project/static/media/avatar.a96eb7a29284bc051da9.png",
     "static/media/fa-regular-400.woff2": "/react-project/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
+    "static/media/friend-01.jpg": "/react-project/static/media/friend-01.bb1c77e1a4ca15a1810a.jpg",
+    "static/media/friend-02.jpg": "/react-project/static/media/friend-02.24be57583316576ea2cb.jpg",
+    "static/media/course-03.jpg": "/react-project/static/media/course-03.1098123787f16ee990d0.jpg",
     "static/media/fa-v4compatibility.ttf": "/react-project/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
+    "static/media/course-04.jpg": "/react-project/static/media/course-04.ddc48f09106f63f1b4fe.jpg",
     "static/media/fa-v4compatibility.woff2": "/react-project/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
+    "static/media/png.svg": "/react-project/static/media/png.b53643fe9ad02435f50b1b0706feb58c.svg",
+    "static/media/eps.svg": "/react-project/static/media/eps.4ff492e31752118e62ed3e97668e8100.svg",
+    "static/media/psd.svg": "/react-project/static/media/psd.6dda1b1f76ae4c6047a57a6c5d1e4d94.svg",
+    "static/media/pdf.svg": "/react-project/static/media/pdf.9ae431294cccc46fea9c16ea41a2fb13.svg",
+    "static/media/zip.svg": "/react-project/static/media/zip.aaf8123f4b73998de3d686696ae4145a.svg",
+    "static/media/avi.svg": "/react-project/static/media/avi.b31b126e336512377f7656922ebe7357.svg",
+    "static/media/dll.svg": "/react-project/static/media/dll.7db3001414bd4da8d79264121905145f.svg",
     "index.html": "/react-project/index.html",
     "main.6a9ab1a3.css.map": "/react-project/static/css/main.6a9ab1a3.css.map",
-    "main.461befbc.js.map": "/react-project/static/js/main.461befbc.js.map"
+    "main.1324b42b.js.map": "/react-project/static/js/main.1324b42b.js.map"
   },
   "entrypoints": [
     "static/css/main.6a9ab1a3.css",
-    "static/js/main.461befbc.js"
+    "static/js/main.1324b42b.js"
   ]
 }
