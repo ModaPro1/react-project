@@ -19,7 +19,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<FixedSibar/>}>
+        <Route path="/react-project" element={<FixedSibar/>}>
           <Route path="/react-project" element={<Dashboard/>}/>
           <Route path="/react-project/settings" element={<Settings/>}/>
           <Route path="/react-project/profile" element={<Profile/>}/>
