@@ -1,3 +1,8 @@
+import avatar from "../imgs/avatar.png"
+import activity1 from "../imgs/activity-01.png"
+import activity2 from "../imgs/activity-02.png"
+import activity3 from "../imgs/activity-03.png"
+
 export default function Profile () {
   return (
     <>
@@ -5,18 +10,18 @@ export default function Profile () {
       <div className="profile-page m-20">
         <div className="overview bg-white rad-10 d-flex align-center">
           <div className="avatar-box txt-c p-20">
-            <img className="mb-10 rad-half" src="imgs/avatar.png" alt=""/>
+            <img className="mb-10 rad-half" src={avatar} alt=""/>
             <h3 className="m-0">Mahmoud Ahmed</h3>
             <p className="c-grey mt-10">Level 35</p>
             <div className="level rad-6 bg-eee p-relative">
               <span style={{width: "70%"}}></span>
             </div>
             <div className="rating mt-10 mb-10">
-              <i className="fa-solid fa-star c-orange fs-13"></i>
-              <i className="fa-solid fa-star c-orange fs-13"></i>
-              <i className="fa-solid fa-star c-orange fs-13"></i>
-              <i className="fa-solid fa-star c-orange fs-13"></i>
-              <i className="fa-solid fa-star c-orange fs-13"></i>
+              <i className="fa-solid fa-star c-orange fs-13 mr-5"></i>
+              <i className="fa-solid fa-star c-orange fs-13 mr-5"></i>
+              <i className="fa-solid fa-star c-orange fs-13 mr-5"></i>
+              <i className="fa-solid fa-star c-orange fs-13 mr-5"></i>
+              <i className="fa-solid fa-star c-orange fs-13 mr-5"></i>
             </div>
             <p className="c-grey m-0 fs-13">550 Rating</p>
           </div>
@@ -126,7 +131,7 @@ export default function Profile () {
             <h2 className="mt-0 mb-10">Latest Activities</h2>
             <p className="mt-0 mb-20 c-grey fs-15">Latest Activities Done By The User</p>
             <div className="activity d-flex align-center txt-c-mobile">
-              <img src="imgs/activity-01.png" alt="" />
+              <img src={activity1} alt="" />
               <div className="info">
                 <span className="d-block mb-10">Store</span>
                 <span className="c-grey">Bought The Mastering Python Course</span>
@@ -137,7 +142,7 @@ export default function Profile () {
               </div>
             </div>
             <div className="activity d-flex align-center txt-c-mobile">
-              <img src="imgs/activity-02.png" alt="" />
+              <img src={activity2} alt="" />
               <div className="info">
                 <span className="d-block mb-10">Academy</span>
                 <span className="c-grey">Got The PHP Certificate</span>
@@ -148,7 +153,7 @@ export default function Profile () {
               </div>
             </div>
             <div className="activity d-flex align-center txt-c-mobile">
-              <img src="imgs/activity-03.png" alt="" />
+              <img src={activity3} alt="" />
               <div className="info">
                 <span className="d-block mb-10">Badges</span>
                 <span className="c-grey">Unlocked The 10 Skills Badge</span>
@@ -159,7 +164,7 @@ export default function Profile () {
               </div>
             </div>
             <div className="activity d-flex align-center txt-c-mobile">
-              <img src="imgs/activity-01.png" alt="" />
+              <img src={activity1} alt="" />
               <div className="info">
                 <span className="d-block mb-10">Store</span>
                 <span className="c-grey">Bought The Typescript Course</span>

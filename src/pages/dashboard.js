@@ -1,4 +1,24 @@
-// Error Because The Inline Style At Line 46
+// Images
+
+import avatar from "../imgs/avatar.png"
+import welcome from "../imgs/welcome.png"
+import news1 from "../imgs/news-01.png"
+import news2 from "../imgs/news-02.png"
+import news3 from "../imgs/news-03.png"
+import news4 from "../imgs/news-04.png"
+import pdf from "../imgs/pdf.svg"
+import avi from "../imgs/avi.svg"
+import psd from "../imgs/psd.svg"
+import zip from "../imgs/zip.svg"
+import dll from "../imgs/dll.svg"
+import eps from "../imgs/eps.svg"
+import project from "../imgs/project.png"
+import team1 from "../imgs/team-01.png"
+import team2 from "../imgs/team-02.png"
+import team3 from "../imgs/team-03.png"
+import team4 from "../imgs/team-04.png"
+import team5 from "../imgs/team-05.png"
+
 export default function Dashboard () {
   return (
     <>
@@ -11,9 +31,9 @@ export default function Dashboard () {
               <h2 className="m-0">Welcome</h2>
               <p className="c-gery mt-5">Mahmoud</p>
             </div>
-            <img className="hide-mobile" src="imgs/welcome.png" alt=""/>
+            <img className="hide-mobile" src={welcome} alt=""/>
           </div>
-          <img src="imgs/avatar.png" className="avatar" alt=""/>
+          <img src={avatar} className="avatar" alt=""/>
           <div className="body txt-c d-flex p-20 mt-20 mb-20 block-mobile">
             <div>Mahmoud Ahmed<span className="d-block c-grey fs-14 mt-10">Web Developer</span></div>
             <div>75<span className="d-block c-grey fs-14 mt-10">Projects</span></div>
@@ -109,7 +129,7 @@ export default function Dashboard () {
         <div className="latest-news p-20 bg-white rad-10 txt-c-mobile">
           <h2 className="mt-0 mb-20">Latest News</h2>
           <div className="news-row d-flex align-center">
-            <img src="imgs/news-01.png" alt="" />
+            <img src={news1} alt="" />
             <div className="info">
               <h3>Created SASS Section</h3>
               <p className="m-0 fs-14 c-grey">New SASS Examples & Tutorials</p>
@@ -117,7 +137,7 @@ export default function Dashboard () {
             <div className="btn-shape bg-eee fs-13 label">3 Days Ago</div>
           </div>
           <div className="news-row d-flex align-center">
-            <img src="imgs/news-02.png" alt="" />
+            <img src={news2} alt="" />
             <div className="info">
               <h3>Changed The Design</h3>
               <p className="m-0 fs-14 c-grey">A Brand New Website Design</p>
@@ -125,7 +145,7 @@ export default function Dashboard () {
             <div className="btn-shape bg-eee fs-13 label">5 Days Ago</div>
           </div>
           <div className="news-row d-flex align-center">
-            <img src="imgs/news-03.png" alt="" />
+            <img src={news3} alt="" />
             <div className="info">
               <h3>Team Increased</h3>
               <p className="m-0 fs-14 c-grey">3 Developers Joined The Team</p>
@@ -133,7 +153,7 @@ export default function Dashboard () {
             <div className="btn-shape bg-eee fs-13 label">7 Days Ago</div>
           </div>
           <div className="news-row d-flex align-center">
-            <img src="imgs/news-04.png" alt="" />
+            <img src={news4} alt="" />
             <div className="info">
               <h3>Added Payment Gateway</h3>
               <p className="m-0 fs-14 c-grey">Many New Payment Gateways Added</p>
@@ -218,7 +238,7 @@ export default function Dashboard () {
           <ul className="m-0">
             <li className="between-flex pb-10 mb-10">
               <div className="d-flex align-center">
-                <img className="mr-10" src="imgs/pdf.svg" alt="" />
+                <img className="mr-10" src={pdf} alt="" />
                 <div>
                   <span className="d-block">my-file.pdf</span>
                   <span className="fs-15 c-grey">Elzero</span>
@@ -228,7 +248,7 @@ export default function Dashboard () {
             </li>
             <li className="between-flex pb-10 mb-10">
               <div className="d-flex align-center">
-                <img className="mr-10" src="imgs/avi.svg" alt="" />
+                <img className="mr-10" src={avi} alt="" />
                 <div>
                   <span className="d-block">My-Video-File.avi</span>
                   <span className="fs-15 c-grey">Admin</span>
@@ -238,7 +258,7 @@ export default function Dashboard () {
             </li>
             <li className="between-flex pb-10 mb-10">
               <div className="d-flex align-center">
-                <img className="mr-10" src="imgs/psd.svg" alt="" />
+                <img className="mr-10" src={psd} alt="" />
                 <div>
                   <span className="d-block">My-Psd-File.pdf</span>
                   <span className="fs-15 c-grey">Osama</span>
@@ -248,7 +268,7 @@ export default function Dashboard () {
             </li>
             <li className="between-flex pb-10 mb-10">
               <div className="d-flex align-center">
-                <img className="mr-10" src="imgs/zip.svg" alt="" />
+                <img className="mr-10" src={zip} alt="" />
                 <div>
                   <span className="d-block">My-Zip-File.pdf</span>
                   <span className="fs-15 c-grey">User</span>
@@ -258,7 +278,7 @@ export default function Dashboard () {
             </li>
             <li className="between-flex pb-10 mb-10">
               <div className="d-flex align-center">
-                <img className="mr-10" src="imgs/dll.svg" alt="" />
+                <img className="mr-10" src={dll} alt="" />
                 <div>
                   <span className="d-block">My-DLL-File.pdf</span>
                   <span className="fs-15 c-grey">Admin</span>
@@ -268,7 +288,7 @@ export default function Dashboard () {
             </li>
             <li className="between-flex">
               <div className="d-flex align-center">
-                <img className="mr-10" src="imgs/eps.svg" alt="" />
+                <img className="mr-10" src={eps} alt="" />
                 <div>
                   <span className="d-block">My-Eps-File.pdf</span>
                   <span className="fs-15 c-grey">Designer</span>
@@ -288,7 +308,7 @@ export default function Dashboard () {
             <li className="mt-25 d-flex align-center current">Test The Project</li>
             <li className="mt-25 d-flex align-center">Finish The Project & Get Money</li>
           </ul>
-          <img className="launch-icon hide-mobile" src="imgs/project.png" alt="" />
+          <img className="launch-icon hide-mobile" src={project} alt="" />
         </div>
 
         <div className="reminders p-20 bg-white rad-10 p-relative">
@@ -328,7 +348,7 @@ export default function Dashboard () {
         <div className="latest-post p-20 bg-white rad-10 p-relative">
           <h2 className="mt-0 mb-25">Latest Post</h2>
           <div className="top d-flex align-center">
-            <img className="avatar mr-15" src="imgs/avatar.png" alt="" />
+            <img className="avatar mr-15" src={avatar} alt="" />
             <div className="info">
               <span className="d-block mb-5 fw-bold">Mahmoud Ahmed</span>
               <span className="c-grey">About 2 Hours Ago</span>
@@ -395,10 +415,10 @@ export default function Dashboard () {
                 <td>Ministry</td>
                 <td>$5300</td>
                 <td>
-                  <img src="imgs/team-01.png" alt="" />
-                  <img src="imgs/team-02.png" alt="" />
-                  <img src="imgs/team-03.png" alt="" />
-                  <img src="imgs/team-05.png" alt="" />
+                  <img src={team1} alt="" />
+                  <img src={team2} alt="" />
+                  <img src={team3} alt="" />
+                  <img src={team5} alt="" />
                 </td>
                 <td>
                   <span className="label btn-shape bg-orange c-white">Pending</span>
@@ -410,9 +430,9 @@ export default function Dashboard () {
                 <td>Mody Company</td>
                 <td>$1800</td>
                 <td>
-                  <img src="imgs/team-01.png" alt="" />
-                  <img src="imgs/team-02.png" alt="" />
-                  <img src="imgs/team-05.png" alt="" />
+                  <img src={team1} alt="" />
+                  <img src={team2} alt="" />
+                  <img src={team5} alt="" />
                 </td>
                 <td><span className="label btn-shape bg-blue c-white">In Progress</span></td>
               </tr>
@@ -422,8 +442,8 @@ export default function Dashboard () {
                 <td>Ahmed</td>
                 <td>$800</td>
                 <td>
-                  <img src="imgs/team-02.png" alt="" />
-                  <img src="imgs/team-03.png" alt="" />
+                  <img src={team2} alt="" />
+                  <img src={team3} alt="" />
                 </td>
                 <td><span className="label btn-shape bg-green c-white">Completed</span></td>
               </tr>
@@ -433,8 +453,8 @@ export default function Dashboard () {
                 <td>Mahmoud</td>
                 <td>$600</td>
                 <td>
-                  <img src="imgs/team-01.png" alt="" />
-                  <img src="imgs/team-02.png" alt="" />
+                  <img src={team1} alt="" />
+                  <img src={team2} alt="" />
                 </td>
                 <td><span className="label btn-shape bg-green c-white">Completed</span></td>
               </tr>
@@ -444,8 +464,8 @@ export default function Dashboard () {
                 <td>Sayed</td>
                 <td>$300</td>
                 <td>
-                  <img src="imgs/team-01.png" alt="" />
-                  <img src="imgs/team-03.png" alt="" />
+                  <img src={team1} alt="" />
+                  <img src={team3} alt="" />
                 </td>
                 <td><span className="label btn-shape bg-red c-white">Rejected</span></td>
               </tr>
@@ -455,10 +475,10 @@ export default function Dashboard () {
                 <td>Arena Company</td>
                 <td>$2600</td>
                 <td>
-                  <img src="imgs/team-01.png" alt="" />
-                  <img src="imgs/team-02.png" alt="" />
-                  <img src="imgs/team-03.png" alt="" />
-                  <img src="imgs/team-04.png" alt="" />
+                  <img src={team1} alt="" />
+                  <img src={team2} alt="" />
+                  <img src={team3} alt="" />
+                  <img src={team4} alt="" />
                 </td>
                 <td><span className="label btn-shape bg-green c-white">Completed</span></td>
               </tr>

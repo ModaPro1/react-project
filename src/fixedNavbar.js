@@ -1,3 +1,5 @@
+import avatar from './imgs/avatar.png'
+
 export default function FixedNavbar () {
   return (
     <div className="head bg-white p-15 d-flex between-flex">
@@ -8,7 +10,7 @@ export default function FixedNavbar () {
       <span className="notification p-relative">
         <i className="fa-regular fa-bell fa-lg"></i>
       </span>
-      <img src="imgs/avatar.png" alt=""/>
+      <img src={avatar} alt=""/>
     </div>
   </div>
   )

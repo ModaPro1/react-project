@@ -1,3 +1,10 @@
+import friend1 from "../imgs/friend-01.jpg"
+import friend2 from "../imgs/friend-02.jpg"
+import friend3 from "../imgs/friend-03.jpg"
+import friend4 from "../imgs/friend-04.jpg"
+import friend5 from "../imgs/friend-05.jpg"
+
+
 export default function Friends () {
   return (
     <>
@@ -9,7 +16,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-01.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend1} alt="" />
           <h4 className="m-0">Mahmoud Ahmed</h4>
           <p className="c-grey fs-13 mt-5 mb-0">Front-End Web Developer</p>
         </div>
@@ -42,7 +49,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-02.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend2} alt="" />
           <h4 className="m-0">Omar Fathy</h4>
           <p className="c-grey fs-13 mt-5 mb-0">Cloud Developer</p>
         </div>
@@ -74,7 +81,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-03.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend3} alt="" />
           <h4 className="m-0">Omar Ahmed</h4>
           <p className="c-grey fs-13 mt-5 mb-0">Mobile Developer</p>
         </div>
@@ -107,7 +114,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-04.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend4} alt="" />
           <h4 className="m-0">Shady Nabil</h4>
           <p className="c-grey fs-13 mt-5 mb-0">Back-End Developer</p>
         </div>
@@ -139,7 +146,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-05.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend5} alt="" />
           <h4 className="m-0">Mohamed Ibrahim</h4>
           <p className="c-grey fs-13 mt-5 mb-0">Algorithm Developer</p>
         </div>
@@ -171,7 +178,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-04.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend4} alt="" />
           <h4 className="m-0">Amr Hendawy</h4>
           <p className="c-grey fs-13 mt-5 mb-0">Back-End Developer</p>
         </div>
@@ -203,7 +210,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-02.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend2} alt="" />
           <h4 className="m-0">Mahmoud Adel</h4>
           <p className="c-grey fs-13 mt-5 mb-0">Cloud Developer</p>
         </div>
@@ -235,7 +242,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-05.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend5} alt="" />
           <h4 className="m-0">Ahmed Abuzaid</h4>
           <p className="c-grey fs-13 mt-5 mb-0">Content Creator</p>
         </div>
@@ -267,7 +274,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-01.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend1} alt="" />
           <h4 className="m-0">Gareeb Elshiekh</h4>
           <p className="c-grey fs-13 mt-5 mb-0">JavaScript Developer</p>
         </div>
@@ -300,7 +307,7 @@ export default function Friends () {
           <i className="fa-regular fa-envelope"></i>
         </div>
         <div className="txt-c">
-          <img className="rad-half mt-10 mb-10 w-100 h-100" src="imgs/friend-03.jpg" alt="" />
+          <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend3} alt="" />
           <h4 className="m-0">Hamza</h4>
           <p className="c-grey fs-13 mt-5 mb-0">Front-End Developer</p>
         </div>

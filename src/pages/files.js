@@ -1,3 +1,10 @@
+import pdf from "../imgs/pdf.svg"
+import avi from "../imgs/avi.svg"
+import psd from "../imgs/psd.svg"
+import dll from "../imgs/dll.svg"
+import eps from "../imgs/eps.svg"
+import png from "../imgs/png.svg"
+
 export default function Files () {
   return (
     <>
@@ -47,7 +54,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/pdf.svg" alt="" />
+            <img className="mt-15 mb-15" src={pdf} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.pdf</div>
           <p className="c-grey fs-13">Mahmoud</p>
@@ -59,7 +66,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/avi.svg" alt="" />
+            <img className="mt-15 mb-15" src={avi} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.avi</div>
           <p className="c-grey fs-13">Admin</p>
@@ -71,7 +78,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/eps.svg" alt="" />
+            <img className="mt-15 mb-15" src={eps} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.eps</div>
           <p className="c-grey fs-13">Uploader</p>
@@ -83,7 +90,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/psd.svg" alt="" />
+            <img className="mt-15 mb-15" src={psd} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.psd</div>
           <p className="c-grey fs-13">Osama</p>
@@ -95,7 +102,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/dll.svg" alt="" />
+            <img className="mt-15 mb-15" src={dll} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.dll</div>
           <p className="c-grey fs-13">Coder</p>
@@ -107,7 +114,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/png.svg" alt="" />
+            <img className="mt-15 mb-15" src={png} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.png</div>
           <p className="c-grey fs-13">Designer</p>
@@ -119,7 +126,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/dll.svg" alt="" />
+            <img className="mt-15 mb-15" src={dll} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.dll</div>
           <p className="c-grey fs-13">Coder</p>
@@ -131,7 +138,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/png.svg" alt="" />
+            <img className="mt-15 mb-15" src={png} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.png</div>
           <p className="c-grey fs-13">Designer</p>
@@ -143,7 +150,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/psd.svg" alt="" />
+            <img className="mt-15 mb-15" src={psd} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.psd</div>
           <p className="c-grey fs-13">Osama</p>
@@ -155,7 +162,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/pdf.svg" alt="" />
+            <img className="mt-15 mb-15" src={pdf} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.pdf</div>
           <p className="c-grey fs-13">Mohamed</p>
@@ -167,7 +174,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/avi.svg" alt="" />
+            <img className="mt-15 mb-15" src={avi} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.avi</div>
           <p className="c-grey fs-13">Admin</p>
@@ -179,7 +186,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/eps.svg" alt="" />
+            <img className="mt-15 mb-15" src={eps} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.eps</div>
           <p className="c-grey fs-13">Uploader</p>
@@ -191,7 +198,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/pdf.svg" alt="" />
+            <img className="mt-15 mb-15" src={pdf} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.pdf</div>
           <p className="c-grey fs-13">Ibraheem</p>
@@ -203,7 +210,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/avi.svg" alt="" />
+            <img className="mt-15 mb-15" src={avi} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.avi</div>
           <p className="c-grey fs-13">Admin</p>
@@ -215,7 +222,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/eps.svg" alt="" />
+            <img className="mt-15 mb-15" src={eps} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.eps</div>
           <p className="c-grey fs-13">Uploader</p>
@@ -227,7 +234,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/psd.svg" alt="" />
+            <img className="mt-15 mb-15" src={psd} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.psd</div>
           <p className="c-grey fs-13">Ahmed</p>
@@ -239,7 +246,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/dll.svg" alt="" />
+            <img className="mt-15 mb-15" src={dll} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.dll</div>
           <p className="c-grey fs-13">Coder</p>
@@ -251,7 +258,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/png.svg" alt="" />
+            <img className="mt-15 mb-15" src={png} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.png</div>
           <p className="c-grey fs-13">Designer</p>
@@ -263,7 +270,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/dll.svg" alt="" />
+            <img className="mt-15 mb-15" src={dll} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.dll</div>
           <p className="c-grey fs-13">Coder</p>
@@ -275,7 +282,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/png.svg" alt="" />
+            <img className="mt-15 mb-15" src={png} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.png</div>
           <p className="c-grey fs-13">Designer</p>
@@ -287,7 +294,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/psd.svg" alt="" />
+            <img className="mt-15 mb-15" src={psd} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.psd</div>
           <p className="c-grey fs-13">Osama</p>
@@ -299,7 +306,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/pdf.svg" alt="" />
+            <img className="mt-15 mb-15" src={pdf} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.pdf</div>
           <p className="c-grey fs-13">Ahmed</p>
@@ -311,7 +318,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/avi.svg" alt="" />
+            <img className="mt-15 mb-15" src={avi} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.avi</div>
           <p className="c-grey fs-13">Admin</p>
@@ -323,7 +330,7 @@ export default function Files () {
         <div className="file bg-white p-10 rad-10">
           <i className="fa-solid fa-download c-grey p-absolute"></i>
           <div className="icon txt-c">
-            <img className="mt-15 mb-15" src="imgs/eps.svg" alt="" />
+            <img className="mt-15 mb-15" src={eps} alt="" />
           </div>
           <div className="txt-c mb-10 fs-14">my-file.eps</div>
           <p className="c-grey fs-13">Uploader</p>
