@@ -23,7 +23,7 @@ export default function SingleCourse () {
         </div>
       </div>
       <div className="back btn-shape bg-blue w-fit">
-        <Link to='/courses' className='c-white'>
+        <Link to='/react-project/courses' className='c-white'>
           Back To Courses
         </Link>
       </div>

@@ -13,7 +13,7 @@ export default function Courses () {
           <p className="description c-grey mt-15 fs-14">{course.description}</p>
         </div>
         <div className="info p-15 p-relative between-flex">
-          <span className="title bg-blue btn-shape"><NavLink className='c-white' to={`/courses/${course.id}`}>Course Info</NavLink></span>
+          <span className="title bg-blue btn-shape"><NavLink className='c-white' to={`/react-project/courses/${course.id}`}>Course Info</NavLink></span>
           <span className="c-grey">
             <i className="fa-regular fa-user"></i> {course.subscribers}
           </span>

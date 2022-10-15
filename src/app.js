@@ -15,6 +15,10 @@ import SingleCourse from "./pages/singleCourse"
 import NotFound from "./pages/notFound"
 import Dashboard from "./pages/dashboard"
 
+// CSS
+import './css/style.css'
+import './css/framwork.css'
+import './css/all.min.css'
 export default function App() {
   return (
     <BrowserRouter>
