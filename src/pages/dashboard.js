@@ -2,7 +2,7 @@
 export default function Dashboard () {
   return (
     <>
-      <h1 className="p-relative">Dashboard</h1>
+      <h1 className="p-relative">Dashboarddd</h1>
       <div className="wrapper d-grid gap-20">
 
         <div className="welcome bg-white rad-10 txt-c-mobile block-mobile">
